@@ -1,10 +1,10 @@
-# First_Webpage
+# First_Webpage 🌐
 General information website using: HTML+CSS+Javascript
 
-## Overview
+## Overview ☁📰⌚
 This was my first time coding in HTML, CSS, and Javascript. This webpage gets the local weather forecast as well as the top news headlines. I will hopefully update it in the future. The code is a little messy so feel free to fix anything.
 
-## API & Resources
+## API & Resources 🛢
 * [OpenWeather](https://openweathermap.org/)
 * [GNews API](https://gnews.io/)
 * [HTML Tutorials](https://www.w3schools.com/html/html_attributes.asp)

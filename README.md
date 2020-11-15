@@ -1,7 +1,7 @@
 # First_Webpage 🌐
 General information website using: HTML+CSS+Javascript
 
-<img width="400" height="300" align='Right' src="https://github.com/Raziz1/First_Webpage/blob/main/images/icon.png? raw=true">
+<img width="250" height="200" align='Right' src="https://github.com/Raziz1/First_Webpage/blob/main/images/icon.png? raw=true">
 
 
 ## Overview ☁📰⌚

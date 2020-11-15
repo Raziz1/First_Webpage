@@ -1,8 +1,10 @@
 # First_Webpage 🌐
 General information website using: HTML+CSS+Javascript
 
-## Overview ☁📰⌚
 <img width="400" height="300" align='Right' src="https://github.com/Raziz1/First_Webpage/blob/main/images/icon.png? raw=true">
+
+
+## Overview ☁📰⌚
 This was my first time coding in HTML, CSS, and Javascript. This webpage gets the local weather forecast as well as the top news headlines. I will hopefully update it in the future. The code is a little messy so feel free to fix anything.
 
 ## API & Resources 🔗

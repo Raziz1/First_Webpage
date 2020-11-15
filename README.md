@@ -5,7 +5,7 @@ General information website using: HTML+CSS+Javascript
 
 
 ## Overview ☁📰⌚
-This was my first time coding in HTML, CSS, and Javascript. This webpage gets the local weather forecast as well as the top news headlines. I will hopefully update it in the future. The code is a little messy so feel free to fix anything.
+This was my first time coding in HTML, CSS, and Javascript. This webpage gets the local weather forecast as well as the top news headlines. I will hopefully update it in the future. The code is a little messy so feel free to fix anything. Once you have setup an Openweather and Gnews account you will have to go into the javascript code to change the API keys.
 
 ## API & Resources 🔗
 * [OpenWeather](https://openweathermap.org/)

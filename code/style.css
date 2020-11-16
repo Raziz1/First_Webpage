@@ -1,0 +1,284 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body{
+  height: 100vh;
+  display:flex-start;
+  /*justify-content: center;*/
+  /*flex-direction: column;*/
+  /*align-items: center;*/
+  background: linear-gradient(rgb(47,150,163),rgb(48,62,143));
+  font-family: monospace;
+  color:white;
+}
+
+/*====================Navigation Bar====================*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+
+
+/*========================================Grid========================================*/
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height:auto;
+}
+
+.grid-item {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+
+/*====================Animation====================*/
+.location-icon{
+  width: 100px;
+  height: 100px;
+}
+
+
+@keyframes example {
+0%{transform: translate(0px, 0px)}
+25%{transform: translate(1px, 1px)}
+50%{transform: translate(0px, 0px)}
+75%{transform: translate(1px, 1px)}
+100%{transform: translate(0px, 0px)}
+}
+
+
+
+
+
+/*========================================Forecast Cards========================================*/
+/* Float four columns side by side */
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px 10px;
+}
+
+.row {margin: 0 -5px;}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 1300px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+  padding: 16px;
+  text-align: center;
+  display: flex;
+  border-radius: 5px; 
+
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+  animation-name: example;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+
+/*========================================Forecast Text========================================*/
+.date{
+  font-size: 25px; 
+  font-weight: bold;
+  padding: 0px 50px;
+  }
+
+.description{
+  font-size: 20px; 
+}
+
+.temp{
+  display: inline-flex;
+  font-size: 20px; 
+}
+
+.precipitation{
+    font-size: 20px; 
+}
+
+/*========================================Clock========================================*/
+
+.clock {
+  border-radius: 50%;
+  background: #fff url(https://cssanimation.rocks/images/posts/clocks/ios_clock.svg) no-repeat center;
+  background-size: 88%;
+  height: 10em;
+  padding-bottom: 31%;
+  position: relative;
+  width: 10em;
+  margin: auto;
+}
+
+.clock.simple:after {
+  background: #000;
+  border-radius: 50%;
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 5%;
+  height: 5%;
+  z-index: 10;
+}
+
+
+.minutes-container, .hours-container, .seconds-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.hours {
+  background: #000;
+  height: 20%;
+  left: 48.75%;
+  position: absolute;
+  top: 30%;
+  transform-origin: 50% 100%;
+  width: 2.5%;
+}
+
+.minutes {
+  background: #000;
+  height: 40%;
+  left: 49%;
+  position: absolute;
+  top: 10%;
+  transform-origin: 50% 100%;
+  width: 2%;
+}
+
+.seconds {
+  background: rgb(255, 0, 0);
+  height: 45%;
+  left: 49.5%;
+  position: absolute;
+  top: 14%;
+  transform-origin: 50% 80%;
+  width: 1%;
+  z-index: 8;
+}
+
+.hours-container {
+  animation: rotate 43200s infinite linear;
+}
+.minutes-container {
+  animation: rotate 3600s infinite steps(60);
+}
+.seconds-container {
+  animation: rotate 60s infinite steps(60);
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
+
+.card-clock {
+  background-color: rgb(51,51,51);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+  padding: 16px;
+  text-align: center;
+  display: inline-flex;
+  border-radius: 25px; 
+
+}
+.card-clock:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+}
+
+/*========================================News========================================*/
+.card-news {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+  padding: 16px;
+  text-align: center;
+  display: block;
+  border-radius: 5px; 
+  margin: auto;
+
+}
+.card-news:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+}
+
+
+.news-icon{
+  width:auto;
+  height:200px;
+  border-radius: 5px; 
+}
+
+.article-title{
+  font-size: 20px; 
+  font-weight: bold;
+}
+
+.article-subtitle{
+  font-size: 15px; 
+}
+
+.article-description{
+  font-size: 15px; 
+}
+
+/*========================================Sports========================================*/
+.team-stats{
+text-align: left;
+}
+
+.team-logo{
+  padding: 10px 10px;
+}
+
+
+

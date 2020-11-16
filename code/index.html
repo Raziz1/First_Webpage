@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width">
+      <title>repl.it</title>
+      <link href="style.css" rel="stylesheet" type="text/css" />
+   </head>
+   <body>
+      <!-- =====Navigation Bar=====-->
+      <ul>
+         <li><a href="default.asp" class="location-timezone">Home</a></li>
+         <li><a href="https://openweathermap.org/">OpenWeather</a></li>
+         <li><a href="https://www.w3schools.com/html/">HTML</a></li>
+         <li><a href="https://www.w3schools.com/css/">CSS</a></li>
+         <li><a href="https://gnews.io/">GNews API</a></li>
+         <li><a href="https://dashboard.api-football.com/">Api-Sports</a></li>
+
+      </ul>
+      <!--======================================Grid======================================-->
+      <div class="grid-container">
+      <!--==========Forecast Grid==========-->
+      <div class="grid-item">
+         <div class="row">
+            <div class="column">
+               <div class="card">
+                  <img class = "location-icon" src="http://openweathermap.org/img/wn/01d@2x.png" alt="Icon">
+                  <div class="container">
+                     <h3 class="date">2020-13-11</h3>
+                     <hr>
+                     <p class="description">Cloudy</p>
+                     <p class ="temp" id="max">Max: 50°C</p>
+                     <p class ="temp" id="min">Min: 12°C</p>
+                     <p class="precipitation">Pop: 10%</p>
+                  </div>
+               </div>
+            </div>
+            <div class="column">
+               <div class="card">
+                  <img class = "location-icon" src="http://openweathermap.org/img/wn/01d@2x.png" alt="Icon">      
+                  <div class="container">
+                     <h3 class="date">2020-13-11</h3>
+                     <hr>
+                     <p class="description">Cloudy</p>
+                     <p class ="temp" id="max">Max: 50°C</p>
+                     <p class ="temp" id="min">Min: 12°C</p>
+                     <p class="precipitation">Pop: 10%</p>
+                  </div>
+               </div>
+            </div>
+            <div class="column">
+               <div class="card">
+                  <img class = "location-icon" src="http://openweathermap.org/img/wn/01d@2x.png" alt="Icon">
+                  <div class="container">
+                     <h3 class="date">2020-13-11</h3>
+                     <hr>
+                     <p class="description">Cloudy</p>
+                     <p class ="temp" id="max">Max: 50°C</p>
+                     <p class ="temp" id="min">Min: 12°C</p>
+                     <p class="precipitation">Pop: 10%</p>
+                  </div>
+               </div>
+            </div>
+            <div class="column">
+               <div class="card">
+                  <img class = "location-icon" src="http://openweathermap.org/img/wn/01d@2x.png" alt="Icon">
+                  <div class="container">
+                     <h3 class="date">2020-13-11</h3>
+                     <hr>
+                     <p class="description">Cloudy</p>
+                     <p class ="temp" id="max">Max: 50°C</p>
+                     <p class ="temp" id="min">Min: 12°C</p>
+                     <p class="precipitation">Pop: 10%</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!--==========Clock==========-->
+      <div class="grid-item">
+         <div class="card-clock">
+            <article class="clock">
+               <div class="hours-container">
+                  <div class="hours"></div>
+               </div>
+               <div class="minutes-container">
+                  <div class="minutes"></div>
+               </div>
+               <div class="seconds-container">
+                  <div class="seconds"></div>
+               </div>
+            </article>
+         </div>
+      </div>
+      <!--==========News==========-->
+      <div class="grid-item">
+         <div class="row">
+            <div class="column">
+               <div class="card-news">
+                  <img class = "news-icon" src="https://cdn3.iconfinder.com/data/icons/ballicons-reloaded-free/512/icon-70-512.png" alt="News Icon">
+                  <div class="container">
+                     <h3 class="article-title">Title</h3>
+                     <p class="article-subtitle" id="source">Source</p>
+                     <hr>
+                     <p class="article-description">Description</p>
+                  </div>
+               </div>
+            </div>
+            <div class="column">
+               <div class="card-news">
+                  <img class = "news-icon" src="https://cdn3.iconfinder.com/data/icons/ballicons-reloaded-free/512/icon-70-512.png" alt="News Icon">
+                  <div class="container">
+                     <h3 class="article-title">Title</h3>
+                     <p class="article-subtitle" id="source">Source</p>
+                     <hr>
+                     <p class="article-description" >Description</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!--==========Sports Stats==========-->
+      <div class="grid-item">
+        <div class="card">
+          <img class = "team-logo" src="https://media.api-sports.io/hockey/teams/693.png" alt="News Icon">
+          <div class="container">
+          <h3 class="team-name">Team-Name & Season</h3>  
+          <hr>
+          <p class="team-stats" id="gamesPlayed">Games Played: 100</p>
+          <p class="team-stats" id="gamesWon">Games Won: 100</p>
+          <p class="team-stats" id="gamesLost">Games Lost: 100</p>
+          <p class="team-stats" id="goalsFor">Goals For: 100</p>
+          <p class="team-stats" id="goalsAgainst">Goals Against: 100</p>
+          </div>
+        </div>
+
+      </div>
+      <script src="script.js"></script>
+   </body>
+</html>

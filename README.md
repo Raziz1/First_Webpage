@@ -1,7 +1,7 @@
 # First_Webpage 🌐
 General information website using: HTML+CSS+Javascript
 
-<img width="250" height="200" align='Right' src="https://github.com/Raziz1/First_Webpage/blob/main/images/webpage.PNG? raw=true">
+<img width="250" height="200" align='Right' src="https://github.com/Raziz1/First_Webpage/blob/main/images/icon.png? raw=true">
 
 
 ## Overview ☁📰⌚
@@ -15,5 +15,5 @@ This was my first time coding in HTML, CSS, and Javascript. This webpage gets th
 * [Javascript Tutorials](https://www.w3schools.com/js/)
 * [Api-Sports](https://dashboard.api-football.com/)
 
-<img align='Center' src="https://github.com/Raziz1/First_Webpage/blob/main/images/View.PNG? raw=true">
+<img align='Center' src="https://github.com/Raziz1/First_Webpage/blob/main/images/webpage.PNG? raw=true">
 

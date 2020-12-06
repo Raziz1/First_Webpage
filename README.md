@@ -15,5 +15,8 @@ This was my first time coding in HTML, CSS, and Javascript. This webpage gets th
 * [Javascript Tutorials](https://www.w3schools.com/js/)
 * [Api-Sports](https://dashboard.api-football.com/)
 
+## Notes 
+* The `navigator.geolocation.getCurrentPosition()` does not work on open-source browsers such as Chromium as they do not contain the predefined API-keys
+
 <img align='Center' src="https://github.com/Raziz1/First_Webpage/blob/main/images/webpage.PNG? raw=true">
 
